@@ -1,13 +1,43 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-.navbar {
-  background-color: #FDF6EA !important;
-}
+//.navbar {
+//  background-color: black !important;
+//}
+//
+//.nav-link {
+//  color: white !important;
+//}
 
 .navbar-brand {
   font-size: 3rem;
 }
 
-h1 {
-  color: red;
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#jumbo-home {
+  background-image: asset-url('patrick-fore-0gkw_9fy0eQ-unsplash.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #2d2d2d;
+  color: white;
+  border-top: solid 1px #eee;
+}
+
+.footer p {
+  margin-top: 20px;
 }
