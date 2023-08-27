@@ -25,3 +25,54 @@
   background-color: lightgrey;
 }
 
+// Pagination Styling
+
+.alpha_pagination {
+  text-align: center;
+  padding: 0.3em;
+  cursor: default;
+}
+
+.alpha_pagination a, .alpha_pagination span, .alpha_pagination em {
+  padding: 0.2em 0.5em;
+  border-radius: 5px;
+}
+
+.alpha_pagination .disabled {
+  color: #aaaaaa;
+}
+
+.alpha_pagination .current {
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+.alpha_pagination a {
+  border: 1px solid cadetblue;
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.alpha_pagination a:hover, .alpha_pagination a:focus {
+  border-color: gray;
+  background: whitesmoke;
+  color: gray;
+}
+
+.alpha_pagination .page_info {
+  color: #aaaaaa;
+  padding-top: 0.8em;
+}
+
+.alpha_pagination .previous_page, .alpha_pagination .next_page {
+  border-width: 2px;
+}
+
+.alpha_pagination .previous_page {
+  margin-right: 1em;
+}
+
+.alpha_pagination .next_page {
+  margin-left: 1em;
+}
